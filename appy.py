@@ -63,10 +63,10 @@ def retrieval_answer(query):
     return result
 
 def main():
-    st.title("The New Dev Order Chatbot")
+    st.title("Welcome to LilaAI - Your Friendly Government Chatbot")
     st.info("You can ask a question like...")
-    st.info("- ")
-    st.info("- ")
+    st.info("- What are the community benefits I should include in my cannabis retail license application?")
+    st.info("- What are the requirements for a retail cannabis license?")
     st.info("- ")
     st.info("- ")    
     text_input = st.text_input("What would you like to know? Type your question below...") 
